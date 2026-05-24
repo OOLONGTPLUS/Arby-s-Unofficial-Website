@@ -79,7 +79,7 @@ let currentFeaturedIndex = 0;
 
 brandLink.addEventListener("click", (event) => {
   event.preventDefault();
-  const selectedAudio = Math.floor(Math.random() * 8) === 0 ? arbysRareAudio : arbysAudio;
+  const selectedAudio = Math.floor(Math.random() * 5) === 0 ? arbysRareAudio : arbysAudio;
   const otherAudio = selectedAudio === arbysAudio ? arbysRareAudio : arbysAudio;
 
   otherAudio.pause();
