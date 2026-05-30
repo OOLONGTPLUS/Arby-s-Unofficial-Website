@@ -380,6 +380,19 @@ h2 {
   margin-bottom: 28px;
 }
 
+.spinning-image {
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .menu-heading-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
